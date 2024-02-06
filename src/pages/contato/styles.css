@@ -1,0 +1,56 @@
+.contato-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contato-form form {
+    background-color: #d21617;
+    border-radius: 10px;
+    width: 20rem;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputBox {
+    height: 45px;
+    width: 22em;
+    border: 1px solid #000;
+    background: #c7c7c7;
+    border-radius: 5px; 
+    margin-bottom: 30px;
+}
+
+#textareaMensagem {
+    width: 22em;
+    height: 15em;
+    background: #c7c7c7;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #d21617;
+}

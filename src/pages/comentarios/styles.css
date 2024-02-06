@@ -1,0 +1,158 @@
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFF;
+}
+
+.text h1{
+    font-size: 60px;
+    margin-top: 50px;
+  }
+  
+.text p {
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.content {
+    width: 100%;
+    height: 20vh;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.comentario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#container {
+    height: 10rem;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+/* IMAGEM 1 */
+#image {
+    width: 130px;
+    height: 110px;
+    margin: 20px;
+    border: 2px solid #d21617;
+    border-radius: 50%;
+}
+
+#image {
+    background-image: url('https://st.depositphotos.com/1715570/2652/i/450/depositphotos_26521259-stock-photo-portrait-of-a-handsome-young.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* IMAGEM 2 */
+#image2 {
+    width: 130px;
+    height: 110px;
+    margin: 20px;
+    border: 2px solid #d21617;
+    border-radius: 50%;
+}
+
+#image2 {
+    background-image: url('https://st.depositphotos.com/1715570/3200/i/450/depositphotos_32004151-stock-photo-cheerful-young-african-woman-smiling.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 55%;
+}
+
+/* IMAGEM 3 */
+#image3 {
+    width: 130px;
+    height: 110px;
+    margin: 20px;
+    border: 2px solid #d21617;
+    border-radius: 50%;
+}
+
+#image3 {
+    background-image: url('https://osegredo.com.br/cdn-cgi/image/width=800,height=400,fit=crop,quality=90,format=webp,onerror=redirect,metadata=none/wp-content/uploads/2021/04/As-pessoas-tambem-pedem-socorro-sorrindo-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 55%;
+}
+
+/* IMAGEM 4 */
+#image4 {
+    width: 130px;
+    height: 110px;
+    margin: 20px;
+    border: 2px solid #d21617;
+    border-radius: 50%;
+}
+
+#image4 {
+    background-image: url('https://www.enelx.com/content/dam/local-brazil/hseq/hseq_banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 55%;
+}
+
+@media (max-width: 1230px) {
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10rem;
+        margin-bottom: 25rem;
+    }
+
+    #container {
+        height: 100%;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    #image {
+        width: 200px;
+        height: 200px;
+    }
+    #image2 {
+        width: 200px;
+        height: 200px;
+    }
+    #image3 {
+        width: 200px;
+        height: 200px;
+    }
+    #image4 {
+        width: 200px;
+        height: 200px;
+    }
+
+    #info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #texto {
+        margin: 0 50px;
+    }
+}
